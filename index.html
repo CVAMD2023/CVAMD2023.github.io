@@ -12,12 +12,22 @@
 
 <body>
 
-<div class="navbar navbar-default sticky-top">
+<div class="navbar">
   <div class="container">
-    <a href="index" class="btn" style="font-size:20px; color:black">Home</a>
-    <a href="call_for_papers" class="btn" style="font-size:20px; color:black">Call for Papers</a>
-    <a href="accepted_papers" class="btn" style="font-size:20px; color:black">Accepted Papers</a>
-    <a href="schedule" class="btn" style="font-size:20px; color:black">Schedule</a>
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/"></a>
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <a href="#overview" class="btn" style="font-size:24px; color:black">Overview</a>
+    <a href="#important_dates" class="btn" style="font-size:24px; color:black">Important Dates</a>
+    <a href="#invited_speakers" class="btn" style="font-size:24px; color:black">Invited Speakers</a>
+    <a href="#organizers" class="btn" style="font-size:24px; color:black">Organizers</a>
+
   </div>
 </div>
 
@@ -49,7 +59,7 @@
 
 <br>
 
-<div class="container">
+<div class="container", id="overview">
   <h2>Overview</h2>
   <div class="overview">
     <p>Over the past few decades, medical imaging techniques, such as chest X-rays, computed tomography (CT), magnetic resonance imaging (MRI), positron emission tomography (PET), mammography, and ultrasound, and have been used for the early detection, diagnosis, prognosis, and treatment of diseases. Various medical imaging analysis problems, such as medical image registration, detection of anatomical and cellular structures, tissue segmentation, have achieved state-of-the-art performances by applying computer vision techniques. However, how to securely and reliably deploy these technologies for facilitating further disease diagnosis and treatment planning remains an open question.</p>
@@ -97,7 +107,7 @@
 </div>
 <p><br/></p> -->
 
-<div class="container">
+<div class="container", id="important_dates">
   <h2>Important Dates (Tentative)</h2>
   <br/>
   <table class="table table-striped">
@@ -128,14 +138,14 @@
 
 <br>
 
-<div class="container">
+<div class="container", id="invited_speakers">
   <h2>Invited Speakers</h2>
   Coming soon.
 </div>
 
 <br>
 
-<div class="container">
+<div class="container", id="organizers">
   <h2>Organizers</h2>
   <div class="instructor">
     <a href="https://www.mit.edu/~yuzhe/">

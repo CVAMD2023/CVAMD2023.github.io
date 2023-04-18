@@ -48,6 +48,7 @@ a:hover {
 }
 
 
+
 /* Main page container */
 
 
@@ -192,4 +193,9 @@ table.psets {
   width: 200px;
   text-align: center;
   margin-right: 20px;
+}
+
+.navbar {
+    height: 1px;  
+	border-bottom: 0;
 }
