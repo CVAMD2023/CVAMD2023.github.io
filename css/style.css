@@ -5,7 +5,7 @@ body {
 	/*background: #f7f7f7;*/
 	background: #e3e5e8;
 	color: #f7f7f7;
-    font-family: 'Lato', Verdana, Helvetica, sans-serif;;
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
     font-weight: 300;
 	font-size:16px;
 }
@@ -227,6 +227,6 @@ table.psets {
 .centered {
 	position: absolute;
 	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	left: 40%;
+	transform: translate(-32.5%, -50%);
   }
