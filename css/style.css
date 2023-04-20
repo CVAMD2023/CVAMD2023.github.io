@@ -54,7 +54,7 @@ a:hover {
 
 .container {
 	width: 1024px;
-	min-height: 200px;
+	min-height: 20px;
 	margin: 0 auto; /* top and bottom, right and left */
 	border: 1px hidden #000;
 	/* border: none; */
@@ -195,7 +195,38 @@ table.psets {
   margin-right: 20px;
 }
 
-.navbar {
-    height: 1px;  
-	border-bottom: 0;
+.navbar-fixed-top {
+	width: 1024px;
+	margin: 0 auto; /* top and bottom, right and left */
+	border: 1px hidden #000;
 }
+
+.nav-container {
+	width: 1024px;
+	min-height: 10px;
+	margin: 0 auto; /* top and bottom, right and left */
+	border: 1px hidden #000;
+	/* border: none; */
+	text-align: center;
+	padding: 1em 1em 1em 1em; /* top, right, bottom, left */
+	color: #4d4b59;
+	background: #f7f7f7;
+}
+
+/* .navbar-fixed-top, .navbar-fixed-bottom {
+    position: fixed;
+    top: 0px;
+    z-index: 1030;
+} */
+
+.img2{
+	opacity: 0.3;
+}
+
+/* Centered text */
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
