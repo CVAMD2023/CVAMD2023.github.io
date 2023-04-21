@@ -230,3 +230,7 @@ table.psets {
 	left: 40%;
 	transform: translate(-32.5%, -50%);
   }
+
+.navbar-toggler {  
+	margin-left: 90% !important;
+}
