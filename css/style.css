@@ -68,6 +68,13 @@ a:hover {
 	text-align: left;
 }
 
+.submissions {
+	text-align: left;
+}
+
+.bolded{
+	font-weight: bold;
+}
 
 .containersmall {
 	width: 1024px;
