@@ -104,6 +104,10 @@ a:hover {
 	background: #f7f7f7;
 }
 
+.reviewers {
+	text-align: left;
+}
+
 /* Title and menu */
 
 .title{
